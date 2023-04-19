@@ -132,6 +132,7 @@ RUN ./mvnw package
 # java -jar target/*.jar
 # ------------------------------------------------------------------------------------
 #
+EXPOSE 8080
 # ------- EXPLAIN how WORKING commands "RUN ./mvnw package" and "java -jar target/*.jar" ------ TESTING ----- example for Troubshouting --
 # 
 # 1.0 [TsyrenD@ip-10-0-101-208 Team5-spring-petclinic]$
