@@ -1,5 +1,5 @@
 FROM openjdk:21-slim
-COPY docker/app /app
+COPY docker/ /app
 WORKDIR /app
 RUN ./mvnw package
 EXPOSE 8080 
