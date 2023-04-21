@@ -1,5 +1,5 @@
 FROM openjdk:21-slim
-COPY App /app
+COPY app/ /app
 WORKDIR /app
 RUN ./mvnw package
 EXPOSE 8080 
