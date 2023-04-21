@@ -1,5 +1,5 @@
 FROM openjdk:21-slim
-COPY spring-petclinic /app
+COPY spring-petclinic/ /app
 WORKDIR /app
 RUN ./mvnw package
 EXPOSE 8080 
